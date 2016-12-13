@@ -28,8 +28,6 @@
 # * JENKINS_URL : alternate jenkins URL
 
 
-#INSTALL DOCKER --- Yay recursion
-curl -sSL https://get.docker.com/ | sh
 
 if [ $# -eq 1 ]; then
 
