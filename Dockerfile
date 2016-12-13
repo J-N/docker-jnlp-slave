@@ -38,6 +38,8 @@ RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar https://repo.jenkins-c
   && chmod 644 /usr/share/jenkins/slave.jar
 
 
+RUN usermod -aG docker jenkins
+
 USER jenkins
 RUN mkdir /home/jenkins/.jenkins
 VOLUME /home/jenkins/.jenkins
