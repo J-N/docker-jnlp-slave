@@ -21,7 +21,7 @@
 #  THE SOFTWARE.
 
 FROM jenkinsci/slave
-MAINTAINER Nicolas De Loof <nicolas.deloof@gmail.com>
+MAINTAINER John-Nicholas Furst <furst@akamai.com
 
 COPY jenkins-slave /usr/local/bin/jenkins-slave
 
